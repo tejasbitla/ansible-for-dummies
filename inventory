@@ -1,0 +1,6 @@
+localhost
+
+[mylabservers]
+7ba2808d972c.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Vishal@123 ansible_become_pass=Vishal@123
+7ba2808d971c.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Venkat@123 ansible_become_pass=Venkat@123
+#7ba2808d973d.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Venkat@123 ansible_become_pass=Venkat@123
