@@ -4,3 +4,11 @@ localhost
 7ba2808d972c.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Vishal@123 ansible_become_pass=Vishal@123
 7ba2808d971c.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Venkat@123 ansible_become_pass=Venkat@123
 #7ba2808d973d.mylabserver.com ansible_connection=ssh ansible_user=cloud_user ansible_ssh_pass=Venkat@123 ansible_become_pass=Venkat@123
+192.168.29.53 ansible_connection=ssh ansible_user=mkbitla ansible_ssh_pass= pop ansible_become_pass=pop
+# HOSTNAME,DNS-NAME,IP-ADDRESS,FQDNS, ansible_connection=ssh/winrm
+# ansible_user=
+#as
+
+
+
+#Salt,puppet,Chef... server-package and client-package
