@@ -1,12 +1,9 @@
-- name: "To install Pkgs"
+- name: "Install nginx and mysql"
   hosts: mylabservers
   become: true
-  vars:
-     var1: "value1"
-     var2: "value2"
   roles:
     - mysql
-    - nginx
+    #- nginx
       
       
 
